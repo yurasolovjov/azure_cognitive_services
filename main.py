@@ -18,16 +18,12 @@ import numpy as np
 # from glob2 import glob
 
 baseUrl ="https://westus.api.cognitive.microsoft.com"
-http_proxy = "http://proxy.stc:3128"
 
 proxyDict = {
     "http": http_proxy,
     "https": http_proxy,
 }
 
-# key_access = 'ff6b390e932d45c7b7fa5113659ca20e'
-# key_access = '4de334fee88749cfaa65210133672316'
-key_access = 'c85f126fa8884e6e8e759982c00e5be2'
 
 # etalon_min = timedelta(0,60,0)
 def deleteProfile(url,id):
